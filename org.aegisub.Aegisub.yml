@@ -229,6 +229,7 @@ modules:
         config-opts:
           - -DCMAKE_BUILD_TYPE=Release
           - -DBUILD_BINARY=OFF
+          - -DCMAKE_INSTALL_LIBDIR=lib
         sources:
           - type: git
             url: https://gitlab.freedesktop.org/uchardet/uchardet.git
